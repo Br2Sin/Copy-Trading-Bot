@@ -1,50 +1,54 @@
+# 🚀 **Solana Copy Trading Bot** 🤖
 
+🔗 **Powered by:** Jupiter Aggregator, Solana Web3.js, and SPL Token libraries.
 
-# 🚀 **Solana Copy Trading Bot** 🤖  
-
-🔗 **Powered by:** Jupiter Aggregator, Solana Web3.js, and SPL Token libraries.  
-
-This bot monitors Jupiter swaps in real-time 🌍, replicates trades 🔄, and optimizes profits 💰 by executing trades based on predefined market conditions.  
+This bot monitors Jupiter swaps in real-time , replicates trades , and optimizes profits by executing trades based on predefined market conditions.
 
 ---
 
-## 📖 **Features**  
+## **Features**
 
-1. **Real-Time Monitoring** 🕒:  
-   - Leverages WebSocket to track Jupiter swap transactions live.  
-   - Extracts critical data like token addresses, amounts, and prices.  
+1. **Real-Time Monitoring** :
 
-2. **Smart Trade Execution** 🎯:  
-   - Automatically buys or sells based on swap details.  
-   - Ensures optimal SOL balance and maintains reserves.  
+   - Leverages WebSocket to track Jupiter swap transactions live.
+   - Extracts critical data like token addresses, amounts, and prices.
 
-3. **Detailed Metadata** 📊:  
-   - Fetches token metadata like name, symbol, and logo using Metaplex SDK.  
-   - Calculates prices and value in USD.  
+2. **Smart Trade Execution** :
 
-4. **Customizable** 🔧:  
-   - Easily configure the target wallet, buy/sell limits, and RPC endpoints.  
+   - Automatically buys or sells based on swap details.
+   - Ensures optimal SOL balance and maintains reserves.
 
-5. **Analytics** 📈:  
-   - Logs transaction details with swap values and links to Solscan for transparency.  
+3. **Detailed Metadata** :
+
+   - Fetches token metadata like name, symbol, and logo using Metaplex SDK.
+   - Calculates prices and value in USD.
+
+4. **Customizable** :
+
+   - Easily configure the target wallet, buy/sell limits, and RPC endpoints.
+
+5. **Analytics** :
+   - Logs transaction details with swap values and links to Solscan for transparency.
 
 ---
 
-## 📦 **Installation**  
+## 📦 **Installation**
 
-1. Clone the repository:  
+1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/solana-copy-trading-bot.git
    cd solana-copy-trading-bot
    ```
 
-2. Install dependencies:  
+2. Install dependencies:
+
    ```bash
    npm install
    ```
 
-3. Add your environment variables:  
-   - Create a `.env` file with the following:  
+3. Add your environment variables:
+   - Create a `.env` file with the following:
      ```
      PRIVATE_KEY=<your_wallet_private_key>
      RPC_ENDPOINT=https://api.mainnet-beta.solana.com
@@ -56,61 +60,61 @@ This bot monitors Jupiter swaps in real-time 🌍, replicates trades 🔄, and o
 
 ---
 
-## 🚀 **Usage**  
+## 🚀 **Usage**
 
-1. Start the bot:  
+1. Start the bot:
+
    ```bash
    npm run start
-   ```  
+   ```
 
-2. The bot will:  
-   - Monitor Jupiter swaps and log the details.  
-   - Execute trades automatically for eligible transactions.  
-   - Display transaction results in the console.  
+2. The bot will:
+   - Monitor Jupiter swaps and log the details.
+   - Execute trades automatically for eligible transactions.
+   - Display transaction results in the console.
 
 ---
 
-## 🛠 **How It Works**  
+## 🛠 **How It Works**
 
 1. **Transaction Monitoring**:  
-   The bot subscribes to real-time Solana transactions using WebSocket.  
+   The bot subscribes to real-time Solana transactions using WebSocket.
 
-2. **Data Extraction**:  
-   - Fetches transaction logs to determine swap details.  
-   - Fetches token metadata for better trade insights.  
+2. **Data Extraction**:
 
-3. **Trade Execution**:  
-   - Buys or sells SOL or tokens based on predefined logic.  
-   - Executes transactions with Jupiter’s aggregator for best prices.  
+   - Fetches transaction logs to determine swap details.
+   - Fetches token metadata for better trade insights.
+
+3. **Trade Execution**:
+   - Buys or sells SOL or tokens based on predefined logic.
+   - Executes transactions with Jupiter’s aggregator for best prices.
 
 ---
 
-## ⚡ **Example Output**  
+## **Example Output**
 
 ```plaintext
-🚀 Swap: SOL - USDC  
-💰 Amount: 2 SOL - 100 USDC  
-💵 Amount in USD: 50 $ - 100 $  
-🔗 Tx: https://solscan.io/tx/yourtxhash  
+Swap: SOL - USDC
+Amount: 2 SOL - 100 USDC
+Amount in USD: 50 $ - 100 $
+Tx: https://solscan.io/tx/yourtxhash
 ```
 
 ---
 
-## 🛡 **Safety Features**  
+## **Safety Features**
 
-- Ensures sufficient SOL balance before executing trades.  
-- Rejects invalid swaps or unsupported tokens.  
-
----
-
-## 💡 **Contributing**  
-
-Feel free to submit PRs 🛠 or raise issues 🚨. Your contributions are always welcome!  
+- Ensures sufficient SOL balance before executing trades.
+- Rejects invalid swaps or unsupported tokens.
 
 ---
 
-## 👨‍💻 **Author**  
+## **Contributing**
 
-👾 Developed by **g0drlc** | [Telegram](https://t.me/g0drlc)
+Feel free to submit PRs 🛠 or raise issues. Your contributions are always welcome!
 
-🌟 **Happy Trading!** 🌟  
+---
+
+## **Author**
+
+Developed by **@Tru3B1iss** | [Telegram](https://t.me/Tru3B1iss)
