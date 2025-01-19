@@ -32,7 +32,7 @@ This bot monitors Jupiter swaps in real-time , replicates trades , and optimizes
 
 ---
 
-## 📦 **Installation**
+## **Installation**
 
 1. Clone the repository:
 
@@ -60,7 +60,7 @@ This bot monitors Jupiter swaps in real-time , replicates trades , and optimizes
 
 ---
 
-## 🚀 **Usage**
+## **Usage**
 
 1. Start the bot:
 
@@ -75,7 +75,7 @@ This bot monitors Jupiter swaps in real-time , replicates trades , and optimizes
 
 ---
 
-## 🛠 **How It Works**
+## **How It Works**
 
 1. **Transaction Monitoring**:  
    The bot subscribes to real-time Solana transactions using WebSocket.
